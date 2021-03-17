@@ -58,7 +58,7 @@ namespace WebApimodelbase.Controllers
                 player.PName = obj.PName;
                 player.PTeam = obj.PTeam;
                 player.PDob = obj.PDob;
-                listplayers.Add(player);
+               
 
             }
             return NoContent();
